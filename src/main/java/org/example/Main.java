@@ -18,19 +18,19 @@ public class Main {
 
         boolean[] results = {
                 GUITestingCases2.testCase1(driver),
-//                GUITestingCases2.testCase2(driver),
-//                GUITestingCases2.testCase3(driver),
-//                GUITestingCases2.testCase4(driver),
-//                GUITestingCases2.testCase5(driver),
-//                GUITestingCases2.testCase6(driver),
-//                GUITestingCases2.testCase7(driver),
-//                GUITestingCases2.testCase8(driver),
-//                GUITestingCases2.testCase9(driver),
-//                GUITestingCases2.testCase10(driver),
-//                GUITestingCases2.testCase11(driver),
-//                GUITestingCases2.testCase12(driver),
-//                GUITestingCases2.testCase13(driver),
-//                GUITestingCases2.testCase14(driver),
+                GUITestingCases2.testCase2(driver),
+                GUITestingCases2.testCase3(driver),
+                GUITestingCases2.testCase4(driver),
+                GUITestingCases2.testCase5(driver),
+                GUITestingCases2.testCase6(driver),
+                GUITestingCases2.testCase7(driver),
+                GUITestingCases2.testCase8(driver),
+                GUITestingCases2.testCase9(driver),
+                GUITestingCases2.testCase10(driver),
+                GUITestingCases2.testCase11(driver),
+                GUITestingCases2.testCase12(driver),
+                GUITestingCases2.testCase13(driver),
+                GUITestingCases2.testCase14(driver),
         };
 
         for(int i = 0; i < results.length; i++) {

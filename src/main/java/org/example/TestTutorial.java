@@ -35,6 +35,9 @@ public class TestTutorial {
         // WebDriver webDriver1 = new ChromeDriver();
         // WebDriver webDriver2 = new SafariDriver();
 
+        // điều hướng trang web khi bắt đầu test
+        driver.get("https://tinchi.qnu.edu.vn/Login");
+
         // Tìm phần tử có id là submit
         WebElement button = driver.findElement(By.id("submit"));
 

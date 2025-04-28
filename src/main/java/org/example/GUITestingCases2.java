@@ -81,11 +81,7 @@ public class GUITestingCases2 {
             WebElement button = drv.findElement(By.className("btn-primary"));
             String bgColor = button.getCssValue("background-color");
             System.out.println("TC_004: Màu nền của nút đăng nhập là: " + bgColor);
-            if("rgba(66, 127, 237, 1)".equalsIgnoreCase(bgColor)) {
-                return true;
-            } else {
-                return false;
-            }
+            return "rgba(66, 127, 237, 1)".equalsIgnoreCase(bgColor);
         } catch (Exception e) {
             System.out.println("TC_004: Không tìm thấy nút Đăng nhập: " + e.getMessage());
             return false;
