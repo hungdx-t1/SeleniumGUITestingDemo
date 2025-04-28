@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng nhập</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/Content/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/css/beyond.min.css" rel="stylesheet" />
+    <link href="/Content/css/animate.min.css" rel="stylesheet" />
+</head>
+<body>
+<form method="post">
+    <div class="login-container animated fadeInDown">
+        <div class="loginbox bg-white">
+            <div class="loginbox-title" style="font-family:sans-serif; "></div>
+            <div class="loginbox-social">
+                <div class="logo">
+                    <img id="logo" src="/Content/images/qnu-logo.png" width="115px" />
+                </div>
+                <div class="social-title " style="padding-top:10px;color:black;">Đăng ký học phần</div>
+            </div>
+            <div class="loginbox-or">
+                <div class="or-line"></div>
+                <div class="or">-*-</div>
+            </div>
+
+            <div class="loginbox-textbox">
+                <input type="text" class="form-control" required placeholder="Tên đăng nhập" name="username" id="username" />
+            </div>
+            <div class="loginbox-textbox">
+                <input type="password" class="form-control" required placeholder="Mật khẩu" name="password" id="password" onkeypress="searchKeyPress(event);" />
+            </div>
+
+
+            <div class="loginbox-forgot">
+                   <span style="color:red"></span>
+            </div>
+            <div class="loginbox-submit">
+                <input type="submit" class="btn btn-primary btn-block" value="Đăng nhập" onclick="ValidateUser()" />
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
